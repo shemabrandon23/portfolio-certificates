@@ -6,37 +6,80 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f9f9f9;
+      background: #f4f6f8;
       color: #333;
       text-align: center;
-      padding: 50px;
+      margin: 0;
+      padding: 0;
     }
-    h1 {
-      color: #444;
+
+    header {
+      background: #0066cc;
+      color: white;
+      padding: 20px;
     }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
     .certificates {
-      margin-top: 30px;
+      margin: 40px auto;
+      max-width: 600px;
     }
+
     .certificates a {
       display: block;
-      margin: 10px 0;
+      margin: 15px 0;
       text-decoration: none;
       color: #0066cc;
       font-weight: bold;
+      border: 1px solid #0066cc;
+      padding: 10px;
+      border-radius: 5px;
+      transition: 0.3s;
     }
+
     .certificates a:hover {
-      color: darkred;
+      background: #0066cc;
+      color: white;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #00ccff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <h1>Portfolio Certificates</h1>
-  <p>Certificates earned during my full stack developer journey.</p>
+  <header>
+    <h1>Shema Brandon Blessing</h1>
+    <p>Full Stack Developer Certificates</p>
+  </header>
 
   <div class="certificates">
     <a href="AI&ML%20Certificate.pdf" target="_blank">View AI & ML Certificate</a>
     <a href="Legacy%20responsive-web-design%20v8%20Certificate.pdf" target="_blank">View Legacy Responsive Web Design v8 Certificate</a>
     <a href="responsive-web-design%20Certificate.pdf" target="_blank">View Responsive Web Design Certificate</a>
   </div>
+
+  <footer>
+    <p>Back to my portfolio: 
+      <a href="https://shemabrandon23.github.io" target="_blank">Visit Portfolio</a>
+    </p>
+  </footer>
 </body>
 </html>
